@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [ring "1.7.1"]]
   :plugins [[lein-ring "0.12.5"]]
-  :ring {:handler clojureproject1.core/example-handler
+  :ring {:handler clojureproject1.core/route-handler
          :init clojureproject1.core/on-init
          :port 7777
          :destroy clojureproject1.core/on-destroy})
